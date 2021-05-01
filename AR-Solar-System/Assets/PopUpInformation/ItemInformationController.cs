@@ -50,6 +50,8 @@ public class ItemInformationController : MonoBehaviour
 
         return clickingOnItem;
     }
+
+    [Obsolete]
     void ShowInformation(Transform item)
     {
         int selectedIndex = -1;
@@ -79,6 +81,7 @@ public class ItemInformationController : MonoBehaviour
         
     }
 
+    [Obsolete]
     IEnumerator LoadThumbnail(string thumbPath)
     {
         thumbPath = "file:///" + thumbPath.Replace(":/", "://");
