@@ -11,5 +11,32 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/PlanetSun.unity
+    guid: 6dbe1525a8dcd4974bbd56dbc6f96334
+  - enabled: 1
+    path: Assets/Scenes/PlanetNeptune.unity
+    guid: 29d2bb1e4c1d64e9f806ba7e64608a93
+  - enabled: 1
+    path: Assets/Scenes/PlanetEarth.unity
+    guid: 7fefd88730d444e1eab89c006abf3257
+  - enabled: 1
+    path: Assets/Scenes/PlanetJupiter.unity
+    guid: 04fa50f6cfee44f19a2209f515045315
+  - enabled: 1
+    path: Assets/Scenes/PlanetMars.unity
+    guid: b2b18927f6ecb4fc4a09c23dedd0afd6
+  - enabled: 1
+    path: Assets/Scenes/PlanetMercury.unity
+    guid: a6a764befde584e6f9cab3969130c9c2
+  - enabled: 1
+    path: Assets/Scenes/PlanetSaturn.unity
+    guid: d4a142b52c0f042c7a5ca47de96504a6
+  - enabled: 1
+    path: Assets/Scenes/PlanetUranus.unity
+    guid: eaf6aa95dc11247e5a5f5c6942ed0abe
+  - enabled: 1
+    path: Assets/Scenes/PlanetVenus.unity
+    guid: 967a6ae46099642b7bc5854ee32e56f5
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 82bf50cb2dac846b0b44190812299934, type: 2}
