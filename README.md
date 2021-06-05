@@ -6,4 +6,4 @@ With over a decade of intensive research and development, Researchers saying tha
 * Vuforia
 * Visual Studio
 ## Android APK link
-https://drive.google.com/file/d/1T3wEGwvNa7NJ8kH6dQJnLEnp5CZBOaR3/view?usp=sharing
+[Download APK](https://github.com/suriya-1403/SolAR-System/releases)
