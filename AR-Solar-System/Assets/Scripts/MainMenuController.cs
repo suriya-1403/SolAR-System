@@ -11,11 +11,15 @@ public class MainMenuController : MonoBehaviour
         Debug.Log("AR System is Loading...");
         SceneManager.LoadScene("SampleScene");
     }
-
+    public void threeDButton()
+    {
+        Debug.Log("3D System is Loading...");
+        SceneManager.LoadScene("View3D");
+    }
     // Update is called once per frame
     public void QuitButton()
     {
-        Debug.LogError("AR System Stopped");
+        Debug.LogError("Application System Stopped");
         Application.Quit();
     }
 }

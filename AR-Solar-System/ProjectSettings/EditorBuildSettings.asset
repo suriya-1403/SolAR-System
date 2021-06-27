@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlanetVenus.unity
     guid: 967a6ae46099642b7bc5854ee32e56f5
+  - enabled: 1
+    path: Assets/Scenes/View3D.unity
+    guid: b3836a16319cb491b8dd657646169296
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 82bf50cb2dac846b0b44190812299934, type: 2}
