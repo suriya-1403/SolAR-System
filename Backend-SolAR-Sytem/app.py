@@ -22,7 +22,7 @@ def index():
     TweetsData = []
     AllowedTypes = [str, int]
     other_user = "nasa"
-    Tweets =[]
+    Tweets = []
     for i, status in enumerate(tweepy.Cursor(api.user_timeline, screen_name=other_user).items(5)):
         print(i, status.text)
         Tweets.append(status.text)
@@ -34,7 +34,7 @@ def index():
                 v_type = type(status_dict[k])
             except:
                 v_type = None
-            if v_type != None:
+            if v_type is not None:
                 if v_type in AllowedTypes:
                     single_tweet_data[k] = status_dict[k]
                     Column.add(k)
