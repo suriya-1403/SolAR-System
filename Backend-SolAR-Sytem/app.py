@@ -26,19 +26,19 @@ def index():
     for i, status in enumerate(tweepy.Cursor(api.user_timeline, screen_name=other_user).items(5)):
         print(i, status.text)
         Tweets.append(status.text)
-        status_dict = dict(vars(status))
-        keys = status_dict.keys()
-        single_tweet_data = {}
-        for k in keys:
+        statusDict = dict(vars(status))
+        keys = statusDict.keys()
+        singleTweetData = {}
+        for key in keys:
             try:
-                v_type = type(status_dict[k])
+                v_type = type(statusDict[key])
             except:
                 v_type = None
             if v_type is not None:
                 if v_type in AllowedTypes:
-                    single_tweet_data[k] = status_dict[k]
-                    Column.add(k)
-        TweetsData.append(single_tweet_data)
+                    singleTweetData[key] = statusDict[key]
+                    Column.add(key)
+        TweetsData.append(singleTweetData)
     header_cols = list(Column)
     df = pd.DataFrame(TweetsData, columns=header_cols)
     df.head()
